@@ -1,0 +1,54 @@
+function ask(question, yes, no) {
+    if (confirm(question)) yes ()
+    else no();
+  }
+  function showOk(){
+    alert("You agreed.");
+  }
+  function showCancel(){
+    alert("You canceled the execution.");
+  }
+  ask("Do you agree?", showOk, showCancel);
+  
+  ***
+  
+  function ask(question, yes, no) {
+    if (confirm(question)) yes ()
+    else no();
+  }
+  ask(
+    "Do you agree?",
+    function() {alert("You agreed.");},
+    function () {alert ("You canceled the execution.");}
+  );
+
+  ***
+
+
+function multiply() {
+  const num1= (prompt("Enter your first number."));
+  const num2= (prompt("Enter your second number."));
+  console.log (`Your first number is ${Number(num1)}.`);
+  console.log (`Your second number is ${Number(num2)}.`);
+  const multiple=(Number(num1)*Number(num2));
+  console.log (`Your total multiplied is ${multiple}.`);
+
+}
+multiply();
+
+
+***
+
+const passage1=("this is all lowercase.")
+const passage2=("THIS IS ALL UPPERCASE.")
+const passage3=("tHiS iS a MiX.")
+
+function capitalize() {
+  console.log (passage1.charAt(0).toUpperCase() + passage1.slice(1));  
+  console.log (passage2.charAt(0).toUpperCase() + passage2.slice(1));  
+  console.log (passage3.charAt(0).toUpperCase() + passage3.slice(1));  
+
+}
+
+console.log (capitalize());
+
