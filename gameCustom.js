@@ -81,11 +81,10 @@ function randomSelection(){
 
 /*added cheat modes below*/
 
-function cheating() {
-    /*alert("Smart choice, you can't lose with Christina.");*/
+/* function cheating() {
     const div = document.createElement('div')
     div.innerText = xtina.emoji
     if (winner) div.classList.add('winner')
     finalColumn.after(div)
 
-}
+}*/

@@ -16,6 +16,7 @@ body {
 
 .selections {
     display: flex;
+    flex: 1;
     justify-content: center;
   /*  irrelevant due to "top"// padding-top: 7rem;*/
     position: fixed;
