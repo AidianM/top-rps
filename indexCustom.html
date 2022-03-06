@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="gameCustom.js" defer></script>
+    <link rel="stylesheet" href="styleCustom.css">
+</head>
+<body>
+    <div class="bodyFrame">
+    <div class="header">
+        <h1><u>CLICK A BUTTON</u></h1>
+        <p>and try your luck against the mechanical marvel!</p>
+    </div>
+    
+    <div class="selections">
+        <!-- easy group recall: 🪨  ✂️📜 -->
+        <button class="selection" data-selection="rock">🪨</button>
+        <button class="selection" data-selection="paper">📜</button>
+        <button class="selection" data-selection="scissors">✂️</button>
+    </div>
+    <div class="results">
+        <div>
+        <u>You</u>
+            <span class="result-score" data-your-score>0</span> 
+            <!-- separate div elements to allow differentiated styling-->
+        </div>
+        <div data-final-column>
+            <u>Computer</u>
+            <span class="result-score" data-computer-score>0</span>
+        </div>
+        <!-- <div class="result-selection winner">🪨</div>
+        <div class="result-selection">✂️</div> -->
+    </div>
+    </div>
+
+    <div class = "footer">
+        <p><strong>©AidianMMXX</strong></p>
+        <p><em>Brought to you by TOP, YT, and the patience of</em></p>
+       <div class= "cheater">
+           <button class = "cheatX" data-selection="xtina" onclick="cheating()">
+            💖Christina💖
+            </button>
+        </div>
+    </div>
+
+    </div> <!-- body frame-->
+</body>
+</html>

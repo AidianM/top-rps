@@ -1,0 +1,117 @@
+body {
+    background-color: rgb(84, 116, 148)
+}
+
+.header {
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(4, 4, 49);
+    color: white;
+    text-align: center;
+    opacity: 1;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+  /*  irrelevant due to "top"// padding-top: 7rem;*/
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 7rem;
+}
+
+
+.cheater {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.cheatX {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+
+.xtina {
+    color: white;
+    background-color: rgb(4, 4, 49);
+   color: white;
+   text-align: center;
+   font-size: 1rem;
+    
+}
+
+.selection {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 4rem;
+    transition: 200ms;
+}
+
+.selection:hover {
+    transform: scale(1.5);
+}
+
+.results {
+    margin-top: 1rem;
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 14rem;
+    
+}
+
+.result-score{
+    margin-left: .1rem;
+    font-size: 1rem;
+    color: lightgray;
+}
+
+.result-selection{
+    opacity: .5;
+    font-size: 2rem;
+}
+
+.result-selection.winner{
+    opacity: 1;
+    font-size: 4rem;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(4, 4, 49);
+    color: white;
+    text-align: center;
+ }
+
+
+ 
+
+ /*.bodyFrame {
+     display: flex;
+     justify-content: center;
+
+ }*/
